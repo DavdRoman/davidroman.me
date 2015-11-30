@@ -1,0 +1,61 @@
+@import 'global'
+
+.normal
+	transform translate(0, 20px)
+	opacity 0
+
+.anim
+	transform translate(0, 0)
+	opacity 1
+
+#content
+	padding normal-margin 0 normal-margin 0
+
+	section:not(:first-of-type)
+		margin-top small-margin
+
+	section
+		margin auto
+		max-width 675px
+		width 85%
+		font-family 'Webly Sleek'
+		font-weight 200
+		color gray-color
+		transition(0.4s)
+
+		h2
+			font-size 1.7em
+			line-height 40px
+			margin-bottom 12px
+			transition(0.4s)
+
+		h3
+			a
+				color gray-color
+				font-size 1.15em
+				font-weight 300
+				transition()
+
+			a:hover
+				color gray-hover-color
+
+		p
+			text-align justify
+			line-height 27px
+
+			a
+				color blue-color
+				font-weight 300
+				transition()
+
+			a:hover
+				color blue-hover-color
+
+			strong
+				font-weight 300
+
+@media (max-width: 450px)
+	#content
+		section
+			h2, h3, p
+				text-align center

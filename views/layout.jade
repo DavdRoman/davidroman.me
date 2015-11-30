@@ -1,0 +1,36 @@
+doctype
+
+head
+    title
+        block title
+    link(rel='stylesheet', type='text/css', href='stylesheets/layout.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/header.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/content.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/footer.css')
+    script(type='application/javascript', src='js/fastclick.js')
+    script(type='application/javascript', src='js/mobile.js')
+    script(type='application/javascript', src='js/jquery.js')
+    script(type='application/javascript', src='js/inview.js')
+    script(type='application/javascript', src='js/layout_animations.js')
+    block head
+    meta(name='viewport', content='width=device-width, user-scalable=no')
+    
+body
+    header
+        div#header-content
+            div#menu
+                h1 David Román
+                div#buttons
+                    a(href='/projects') Projects
+                    a(href='/about') About
+                    a(href='/hire') Hire
+            div#photo
+
+    div#content
+        block content
+    
+    footer
+        div
+            a#twitter(href='https://twitter.com/DavdRoman')
+            a#github(href='https://github.com/DavdRoman')
+            a#linkedin(href='https://linkedin.com/in/davdroman')

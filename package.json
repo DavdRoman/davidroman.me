@@ -1,0 +1,16 @@
+{
+    "name": "davidroman.me",
+    "version": "0.0.0",
+    "description": "My personal website written in Node.js",
+    "keywords": ["david", "roman", "aguirre", "developer", "programmer", "ios", "portfolio"],
+    "license": "MIT",
+    "author": "David Román <d@vidroman.me>",
+    "dependencies": {
+        "express": "",
+        "body-parser": "",
+        "jade": "",
+        "stylus": "",
+        "nib": "",
+        "github-repositories": ""
+    }
+}

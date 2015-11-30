@@ -1,0 +1,27 @@
+@import 'global'
+
+header
+	a:not([href~='/about'])
+		color white
+
+	a[href~='/about']
+		color blue-color
+		background-color white
+
+#content
+	section
+		p:not(:first-of-type)
+			margin-top 14px
+
+		img
+			margin-top 14px
+			border-radius 6px
+			width 100%
+
+		iframe
+			margin-top 14px
+			border-radius 6px
+			width 100%
+			height 47vw
+			max-width 675px
+			max-height 379px

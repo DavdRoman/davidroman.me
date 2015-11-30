@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Popsicle",
+        "img": "/images/popsicle.png",
+        "url": "https://github.com/DavdRoman/Popsicle",
+        "description": "Popsicle is an easy-as-pie framework for creating and managing interpolations of different value types, as well as implementing your own custom value interpolations."
+    },
+    {
+        "title": "Bohr",
+        "img": "/images/bohr.png",
+        "url": "https://github.com/DavdRoman/Bohr",
+        "description": "Bohr is a framework that allows to set up a settings screen for your app with three principles in mind: ease, customization and extensibility."
+    },
+    {
+        "title": "DRCellSlideGestureRecognizer",
+        "img": "/images/drcsgr.svg",
+        "url": "https://github.com/DavdRoman/DRCellSlideGestureRecognizer",
+        "description": "DRCellSlideGestureRecognizer is a library that allows developers to make cells actionable through swipes, a là Mailbox."
+    },
+    {
+        "title": "DRPageScrollView",
+        "img": "/images/drpsv.svg",
+        "url": "https://github.com/DavdRoman/DRPageScrollView",
+        "description": "DRPageScrollView is an iOS library that wraps around UIScrollView in order to make paginated scroll views using a block-based approach."
+    }
+]
